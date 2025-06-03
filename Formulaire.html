@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Formulaire </title>
+    <meta type="description" content="Ceci est la page d'accueil">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+   
+    <form>
+        <h4>INSCRIPTION</h4>
+        <hr>
+        <div class="name-field">
+            <div>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" value="" placeholder="Entrer votre nom">
+            </div>
+            <div>
+        <label for="prenom">Prenom</label>
+        <input type="text" id="prenom" name="prenom" value="" placeholder="Entrer votre prenom">
+            </div>
+        </div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" value="" placeholder="Entrer votre adresse e-mail">
+        <label for="password">Mot de passe</label>
+        <input type="password" id="pass" name="pass" value="" placeholder="Entrer votre mot de passe">
+        <label for="loisir">Choississez un loisir</label>
+        <label for="dessin">Dessin</label>
+        <input type="radio" id="dessin" name="loisir" value="dessin">
+        <label for="retro-gaming">Retro-gaming</label>
+        <input type="radio" id="retro-gaming" name="loisir" value="retro-gaming">
+        <label for="lecture">Lecture</label>
+        <input type="radio" id="lecture" name="loisir" value="lecture">
+        <label for="pays">Pays</label>
+        <select id="pays" name="pays">
+            <option value="">...</option>
+            <option value="cmr">Cameroun</option>
+            <option value="fr">France</option>
+            <option value="de">Allemagne</option>
+        </select>
+        <input type="submit" name="ok" value="Envoyer ma reponse">
+    </form>
+
+</body>
+</html>
